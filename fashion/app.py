@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from main import FashionClassifier
 
 # Initialize classifier with your new model
-classifier = FashionClassifier("fashion_mnist.h5")
+classifier = FashionClassifier("fashion/fashion_mnist.h5")
 
 # App title
 st.title("👕👟 Fashion MNIST Image Classification")
