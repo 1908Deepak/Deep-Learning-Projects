@@ -7,7 +7,7 @@ from PIL import Image
 class FashionClassifier:
     def __init__(self, model_path: str):
         """Initialize and load the trained model"""
-        self.model = load_model('fashion_mnist.h5')
+        self.model = load_model('fashion/fashion_mnist.h5')
         self.class_names = [
             "T-shirt/top", "Trouser", "Pullover", "Dress", "Coat",
             "Sandal", "Shirt", "Sneaker", "Bag", "Ankle boot"
